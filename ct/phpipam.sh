@@ -18,7 +18,6 @@ var_unprivileged="1"
 var_net="192.168.100.247/24"
 var_gate="192.168.100.1"
 var_vlan=""
-var_brg="vmbr0"
 var_ns="192.168.100.1"
 
 header_info "$APP"

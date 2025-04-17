@@ -366,7 +366,6 @@ base_settings() {
   RAM_SIZE=${var_ram:-$RAM_SIZE}
   # teste
   #HN=${var_hn:-$HN}
-  BRG=${var_brg:-$BRG}
   NET=${var_net:-$NET}
   GATE=${var_gate:-$GATE}
   NS=${var_ns:-$NS}
