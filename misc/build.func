@@ -364,6 +364,16 @@ base_settings() {
   DISK_SIZE=${var_disk:-$DISK_SIZE}
   CORE_COUNT=${var_cpu:-$CORE_COUNT}
   RAM_SIZE=${var_ram:-$RAM_SIZE}
+  # teste
+  BRG=${var_brg:-$BRG}
+  NET=${var_net:-$NET}
+  GATE=${var_gate:-$GATE}
+  NS=${var_ns:-$NS}
+  VLAN=${var_vlan:-$VLAN}  
+
+
+
+
   VERB=${var_verbose:-$VERBOSE}
   TAGS="${TAGS}${var_tags:-}"
 
@@ -856,11 +866,11 @@ install_script() {
   header_info
   while true; do
 
-    CHOICE=$(whiptail --backtitle "Proxmox script - Ramon" --title "SETTINGS" --menu "Choose an option:" \
+    CHOICE=$(whiptail --backtitle "Proxmox script - Ramon" --title "CONFIGURAÇÃO" --menu "Choose an option:" \
       12 50 5 \
-      "1" "Default Settings" \
+      "1" "PADRÃO" \
       "2" "Default Settings (with verbose)" \
-      "3" "Advanced Settings" \
+      "3" "PERSONALIZADO" \
       "5" "Exit" --nocancel --default-item "1" 3>&1 1>&2 2>&3)
 
     if [ $? -ne 0 ]; then
