@@ -365,7 +365,7 @@ base_settings() {
   CORE_COUNT=${var_cpu:-$CORE_COUNT}
   RAM_SIZE=${var_ram:-$RAM_SIZE}
   # teste
-  HN=${var_brg:-$HN}
+  HN=${var_hn:-$HN}
   BRG=${var_brg:-$BRG}
   NET=${var_net:-$NET}
   GATE=${var_gate:-$GATE}
