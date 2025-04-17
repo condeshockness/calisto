@@ -14,7 +14,7 @@ var_os="debian"
 var_version="12"
 var_unprivileged="1"
 
-var_hn="GETC-PHPIPAM"
+#var_hn="GETC-PHPIPAM"
 var_net="192.168.100.247/24"
 var_gate="192.168.100.1"
 var_vlan=""
