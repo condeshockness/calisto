@@ -5,7 +5,7 @@ source <(curl -fsSL https://raw.githubusercontent.com/condeshockness/calisto/mai
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Source: https://phpipam.net/
 
-APP="GETC-PHPIPAM"
+APP="phpIPAM"
 var_tags="network"
 var_cpu="1"
 var_ram="1024"
